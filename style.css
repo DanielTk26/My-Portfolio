@@ -1,0 +1,76 @@
+h1{
+
+    color:white;
+
+}
+
+
+.header{
+ background-color: cadetblue;
+ display:flex;
+ justify-content: space-between;
+
+}
+
+
+.grid{
+
+    display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;    
+
+
+
+}
+
+.trex{
+display:flex;
+flex-direction:column;
+justify-content: first baseline;    
+
+
+}
+
+
+.pacman{
+    display:flex;
+    flex-direction:column;
+    justify-content: first baseline;    
+    
+    
+    }
+
+    
+    .stella{
+        display:flex;
+        flex-direction:column;
+        justify-content: first baseline;    
+        
+        
+        }
+
+        .chat{
+            display:flex;
+            flex-direction:column;
+            justify-content: first baseline;    
+            
+            
+            }
+            
+
+
+
+
+.footer{
+
+    display:flex;
+    justify-content: flex-end;    
+    
+    }
+
+ 
+p, h2{
+
+   text-align: center;   
+
+}    
