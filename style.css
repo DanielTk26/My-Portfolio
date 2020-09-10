@@ -1,16 +1,30 @@
 h1{
 
     color:white;
-
+    padding:30px;
 }
 
+.header  {
+
+    border:solid;
+    
+    }
+    
 
 .header{
  background-color: cadetblue;
  display:flex;
  justify-content: space-between;
+ 
 
 }
+
+.header:hover p {
+
+    opacity:0.8;
+
+}
+
 
 
 .grid{
@@ -74,3 +88,55 @@ p, h2{
    text-align: center;   
 
 }    
+
+
+body{
+
+    background-color:white;
+
+}
+
+
+a:link{
+
+   color:orange;
+
+}
+
+a:visited{
+
+   color:rgb(21, 21, 65);
+
+}
+
+.games{
+
+     position:relative;
+
+}
+
+.games p {
+
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%); 
+   opacity:0;
+
+}
+
+
+.games:hover p {
+
+  opacity:1;
+
+}
+
+.games:hover img{
+
+  opacity:0.3;
+
+
+}
+
+
